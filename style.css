@@ -4,6 +4,14 @@ body {
     flex-direction: column;
 }
 
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
 .header,
 .hero,
 .footer {
@@ -13,6 +21,7 @@ body {
 .header {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 900;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,6 +55,21 @@ body {
     font-size: 18px;
 }
 
+.hero img {
+    border: 4px solid grey;
+}
+
+.info-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-image img {
+    border: 4px solid #3882F6;
+    
+}
+
 .quote {
     background-color: #E5E7EB;
 }
@@ -64,6 +88,21 @@ body {
 
 .action {
     background-color: #3882F6;
+}
+
+.action-main {
+    color: #F9FAF8;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.action-sub {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.action button {
+    border: 2px solid #F9FAF8;
 }
 
 .footer {
