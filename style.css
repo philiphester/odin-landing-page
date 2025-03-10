@@ -10,6 +10,7 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     border: none;
+    border-radius: 8px;
     font-size: 18px;
     font-weight: 700;
     width: 100px;
@@ -61,7 +62,7 @@ button {
 .content > * {
     display: flex;
     flex-direction: column;
-    flex: 1
+    flex: 1;
 }
 
 .hero {
@@ -107,6 +108,7 @@ button {
 
 .info-img-placeholder {
     border: 5px solid #3882F6;
+    border-radius: 8px;
     padding: 80px;
     margin-bottom: 10px;
 }
@@ -135,6 +137,7 @@ button {
 
 .action-panel {
     background-color: #3882F6;
+    border-radius: 8px;
     padding: 20px 60px;
     display: flex;
     justify-content: center;
