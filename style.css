@@ -26,7 +26,8 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    gap: 60px;
+    padding: 20px 140px;
 }
 
 .header-title {
@@ -67,10 +68,10 @@ button {
 
 .hero {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 40px;
-    padding: 0 220px;
+    gap: 100px;
+    padding: 60px 0;
 }
 
 .hero-text {
@@ -95,12 +96,16 @@ button {
     padding: 100px 120px;
 }
 
+.info {
+    padding: 60px 0;
+}
+
 .info-header {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
     text-align: center;
-    margin: 30px auto;
+    margin-bottom: 60px;
 }
 
 .info-image-container {
@@ -122,6 +127,7 @@ button {
 
 .quote {
     background-color: #E5E7EB;
+    padding: 60px 0;
 }
 
 .quote-text {
@@ -140,6 +146,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 60px 0;
 }
 
 .action-panel {
