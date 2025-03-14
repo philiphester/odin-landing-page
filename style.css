@@ -164,6 +164,13 @@ button {
     gap: 10px;
 }
 
+.action-panel {
+    padding: 60px 140px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
 .action-main {
     color: #F9FAF8;
     font-size: 22px;
